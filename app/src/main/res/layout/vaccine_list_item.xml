@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout for a single list item that displays news on vaccines -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingEnd="@dimen/padding_layout"
+    android:paddingLeft="@dimen/padding_layout"
+    android:paddingRight="@dimen/padding_layout"
+    android:paddingStart="@dimen/padding_layout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/padding_layout">
+
+        <LinearLayout
+            android:layout_width="@dimen/dim_zero"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/section"
+                style="@style/tview_author_style"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif-medium"
+                android:maxLines="1"
+                tools:text="@string/Section" />
+
+            <TextView
+                android:id="@+id/author"
+                style="@style/tview_author_style"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif-medium"
+                android:maxLines="1"
+                tools:text="@string/Author" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/padding_layout"
+            android:layout_marginStart="@dimen/padding_layout"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/time"
+                style="@style/tview_style"
+                android:layout_gravity="end"
+                tools:text="23/05/2018T \n 3:00:29Z" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:paddingTop="@dimen/size_top_title"
+        android:paddingBottom="@dimen/dim_author_txt"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/padding_layout"
+        tools:text="@string/Title" />
+</LinearLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Vaccine News from The Guardian</string>
+
+    <!-- Text to display when there are no articles -->
+    <string name="no_data">No article on vaccines found. The list should be populated with the following information: section, author, date, time and title</string>
+
+    <!-- Error message when there is no internet connectivity -->
+    <string name="no_internet_connection">No internet connection.</string>
+
+    <string name="Section">Section</string>
+    <string name="Author">Author</string>
+    <string name="Title">Article title</string>
+    <string name="Author_not_found">Author not found</string>
+    <string name="Problem_request">Problem making the HTTP request</string>
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">Article Settings</string>
+
+    <string name="settings_pagenumb_label">Number of articles to visualize</string>
+    <string name="settings_pagenumb_key" translatable="false">pages</string>
+    <string name="settings_pagenumb_default" translatable="false">10</string>
+
+    <string name="settings_orderby_label">Order By</string>
+    <string name="settings_orderby_key" translatable="false">order_by</string>
+    <string name="settings_orderby_default" translatable="false">@string/settings_orderby_section_value</string>
+
+    <string name="settings_orderby_section_label">Section</string>
+    <string name="settings_orderby_section_value" translatable="false">section</string>
+
+    <string name="settings_orderby_most_recent_label">Most Recent</string>
+    <string name="settings_orderby_most_recent_value" translatable="false">time</string>
+
+</resources>

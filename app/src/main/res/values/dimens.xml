@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_layout">16dp</dimen>
+    <dimen name="size_top_title">20dp</dimen>
+    <dimen name="dim_zero">0dp</dimen>
+    <dimen name="dim_author_txt">12sp</dimen>
+</resources>
